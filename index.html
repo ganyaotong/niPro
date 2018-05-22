@@ -41,13 +41,16 @@
     .zixu,.ywxt,.cpdz,.yxyj,.mxgs{
         margin-right: 30px;
         position: relative;
-        float: right;
+        left: 50px;
         width: 30%;
         border-radius: 5px;
         border:3px solid white;
         background-color: rgba(255, 5, 68, 0.125);
         opacity: 0.5;
         padding: 15px;
+    }
+    .mxgs{
+        left: 300px !important;
     }
     .men{display: block; top: 100px; position: fixed; width: 100%;}
     .zixu:hover,.ywxt:hover,.cpdz:hover,.yxyj:hover,.mxgs:hover{
@@ -92,13 +95,13 @@
     }
     @keyframes zixu
     {
-        from {right: 0px; opacity: 0;}
-        to {right: 50px; opacity: 0.5;}
+        from {left: 0px; opacity: 0;}
+        to {left: 50px; opacity: 0.5;}
     }
     @keyframes cpdz
     {
-        from {opacity: 0; right: 0px;}
-        to {opacity: 0.5; right: 50px;}
+        from {opacity: 0; left: 0px;}
+        to {opacity: 0.5; left: 50px;}
     }
     @keyframes yxyj
     {
@@ -121,18 +124,12 @@
 
     @keyframes mxgs
     {
-        from {opacity: 0; right: 0px;}
-        to {opacity: 0.5; right: 300px;}
+        from {opacity: 0; left: 0px;}
+        to {opacity: 0.5; left: 300px;}
     }   
     .mxgs
     {
         animation: mxgs 2s;
-    }
-
-   
-
-    .sdrow{
-        background-color: white !important;
     }
     
     .sd,.sylc{
@@ -374,12 +371,22 @@
             margin-bottom: 2em;
             animation: mobile 3s !important;
         }
+        .container .row{
+            display: block !important;
+            background-color: rgba(0, 0, 0, 0);
+        }   
         .dtgg,.pgpt,.wxgzh,.gsgw,.mmgl{ width: 100%;}
         .grb,.zyb,.qyb{width: 100%;}
         body{
             background-repeat: repeat;
         }
-        .adv{width: 90%;}
+        .adv{width: 90%; top: -80px;}
+        .adv:hover{top: 0;}
+        .nr{opacity: 1;background-color: #28a745;}
+        .dtgg, .pgpt, .wxgzh, .gsgw, .mmgl{
+            margin: 0;
+            margin-bottom: 10px;
+        }
         @keyframes mobile
         {
             from {opacity: 0;}
