@@ -50,7 +50,7 @@
         padding: 15px;
     }
     .mxgs{
-        left: 300px !important;
+        left: 300px;
     }
     .men{display: block; top: 100px; position: fixed; width: 100%;}
     .zixu:hover,.ywxt:hover,.cpdz:hover,.yxyj:hover,.mxgs:hover{
@@ -181,6 +181,7 @@
     }
     .dgrow h3{padding: 30px;}
     .yssp{margin:auto;}
+    .yssp video{width: 800px;}
     </style>
 
     <!-- Bootstrap -->
@@ -257,7 +258,7 @@
                     <p><strong>商店</strong>平南县坦克网络技术有限公司提供一个DNS产品，面向个人开发者、地面商户、地面企业、专卖店、学校、政府企业、人员多的地方、广场、沙滩、公园、动物园、移动网。</p>
                 </div>
                 <div class="yssp">
-                    <video controls="controls" preload="meta" width="800" src="./video/域名系统.mp4"></video>
+                    <video controls="controls" preload="meta" src="./video/域名系统.mp4"></video>
                 </div>
                 <div class="grb">
                     <h2>DNS个人版</h2>
@@ -370,11 +371,12 @@
       @media (max-width: 480px){
         .zixu,.ywxt,.cpdz,.yxyj,.mxgs{
             width: 100%; 
+            left: 0 !important;
             margin: auto;
-            right: 0 !important;
             margin-bottom: 2em;
             animation: mobile 3s !important;
         }
+        .yssp video{width: 400px;}
         .container .row{
             display: block !important;
             background-color: rgba(0, 0, 0, 0);
