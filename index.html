@@ -53,6 +53,10 @@
         left: 300px;
     }
     .men{display: block; top: 100px; position: fixed; width: 100%;}
+    .IDEtc{display: none; top: 100px; position: fixed; width: 100%; background-color:rgba(33, 37, 41, 1) }
+    .IDEtc .row .item{background-color: black; padding: 10px; border-radius: 3px; margin: auto; color: white;}
+    .IDEtc .row .line{overflow: hidden; border: none; width: 100%;}
+    .IDEtc .row .item img{width: 250px; height: 157px;}
     .zixu:hover,.ywxt:hover,.cpdz:hover,.yxyj:hover,.mxgs:hover{
         opacity: 1;
     }
@@ -369,6 +373,26 @@
             </div>
         </div>
     </div>
+    <div class="IDEtc">
+        <div class="row">
+            <div class="line"><button onclick="closeIDEtc();">关闭</button><a href="#">进入</a></div>
+            <div class="item">
+                <h3>Visual Studio 2017</h3>
+                <img src="./img/Visual-Studio-2017.png">
+                <p>Visual Studio IDE</p>
+            </div>
+            <div class="item">
+                <h3>Xcode</h3>
+                <img src="./img/xcode-logo.png">
+                <p>Xcode IDE</p>
+            </div>
+            <div class="item">
+                <h3>Qt Creator</h3>
+                <img src="./img/Qt_logostrap_CMYK.png">
+                <p>Qt Creator IDE</p>
+            </div>
+        </div>
+    </div>
     <script type="text/javascript">
         $(function(){
             $(".btn-primary").click(function(event) {
@@ -376,7 +400,13 @@
                     
                 });
             });
+
+            window.setTimeout(function(){$(".IDEtc").show('slow',function(){})},10000);
         })
+
+        function closeIDEtc(){
+            $(".IDEtc").hide('slow',function(){});
+        }
     </script>
   </body>
   <style type="text/css">
