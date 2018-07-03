@@ -186,10 +186,11 @@
     .dgrow h3{padding: 30px;}
     .yssp{margin:auto;}
 
-    .dnsrow table{width: 100%;}
-    .dnsrow .download{width: 100%;}
-    .dnsrow .image{opacity: 1; background: blue;}
-    .dnsrow .image img{height: 250px;}
+    .comrow table{width: 100%;}
+    .comrow .download{width: 100%;}
+    .comrow .image{opacity: 1; background: blue;}
+    .comrow .image img{height: 250px;}
+    .comrow .sfimg img{width: 900px; height: unset;}
     </style>
 
     <!-- Bootstrap -->
@@ -365,8 +366,8 @@
             </div>
 
             <!-- DNS-Desktop -->
-            <div class="row dnsrow" id="dns">
-                <p>DNS-Desktop是一个DNS入门型服务器，开发给Window 10操作系统使用，通过对DNS入门型服务器的使用认识，可以在开发环境，测试环境，局域网，线下网场解决方案中应用。这个DNS产品弥补开发市场不足，同时使用资源极低，适合开发者，学生，业务员，设计师使用。</p>
+            <div class="row comrow" id="dns">
+                <p>DNS-Desktop是一个DNS入门型服务器，开发给Window 10操作系统使用，通过对DNS入门型服务器的使用认识，可以在开发环境，测试环境，局域网，线下网场解决方案中应用。这个DNS产品弥补开发市场不足，同时使用资源极低，适合开发者，学生，业务员，设计师使用。 只支持A记录，自带domain1~9.beautiful域名共9条解析记录，支持WEB远程登陆管理。</p>
                 <div class="download">
                     <table>
                         <tr>
@@ -378,18 +379,18 @@
                         <tr>
                             <td>DNS-Desktop</td>
                             <td><a href="./download/dns/DNS.msi">点击下载</a></td>
-                            <td>15,525kb</td>
+                            <td>15,515kb</td>
                             <td><a href="./download/dns/verifyCode.txt">下载</a></td>
                         </tr>
                     </table>
                 </div>
                 <div class="image row">
-                    <img src="./img/dns/sna.PNG">
-                    <img src="./img/dns/sna1.PNG">
-                    <img src="./img/dns/sna2.PNG">
-                    <img src="./img/dns/sna3.PNG">
-                    <img src="./img/dns/sna4.PNG">
-                    <img src="./img/dns/sna5.PNG">
+                    <img src="./img/dns/sna.png">
+                    <img src="./img/dns/sna1.png">
+                    <img src="./img/dns/sna2.png">
+                    <img src="./img/dns/sna3.png">
+                    <img src="./img/dns/sna4.png">
+                    <img src="./img/dns/sna5.png">
                 </div>
                 <div class="row">
                     <p><strong>软件供应商通告信息</strong></p>
@@ -405,12 +406,17 @@
                             <td>window vista未做测试结果</td>
                             <td>无</td>
                         </tr>
+                        <tr>
+                            <td>软件Bug维护</td>
+                            <td>软件Bug没有维护工作，不接收Bug提交</td>
+                            <td>无</td>
+                        </tr>
                     </table>
                 </div>
             </div>
 
             <!-- ShortFont -->
-            <div class="row dnsrow" id="dns">
+            <div class="row comrow" id="dns">
                 <p><strong>SHORTFONT</strong>是一个快捷字体应用，这个应用依赖于Key/Value的原理建立起来的，设计这个应用的初衷是让网页的菜单与内容分离，可以单独选择菜单国家语言，而不影响内容的展示。这个应用依赖另外一个USER'EXT系统使用，USER'EXT让用户可以登陆至SHORTFONT，类似OA2认证登陆。开发好这个应用后，你的所有其他网站添加这个应用的SDK可以快速与SHORTFONT应用对接，实现菜单多语言，内容单语言。</p>
                 <div class="download">
                     <table>
@@ -422,19 +428,20 @@
                         </tr>
                         <tr>
                             <td>SHORTFONT</td>
-                            <td><a href="./download/DNS.msi">点击下载</a></td>
+                            <td><a href="./download/shortfont/shortfont.iido.com.cn.7z">点击下载</a></td>
                             <td>15,515kb</td>
-                            <td><a href="./download/verifyCode.txt">下载</a></td>
+                            <td><a href="./download/shortfont/verifyCode.txt">下载</a></td>
                         </tr>
                     </table>
                 </div>
-                <div class="image row">
-                    <img src="./img/dns/sna.PNG">
-                    <img src="./img/dns/sna1.PNG">
-                    <img src="./img/dns/sna2.PNG">
-                    <img src="./img/dns/sna3.PNG">
-                    <img src="./img/dns/sna4.PNG">
-                    <img src="./img/dns/sna5.PNG">
+                <div class="image sfimg row">
+                    <img src="./img/shortfont/sna.PNG">
+                    <img src="./img/shortfont/sna1.PNG">
+                    <img src="./img/shortfont/sna2.PNG">
+                    <img src="./img/shortfont/sna3.PNG">
+                    <img src="./img/shortfont/sna4.PNG">
+                    <img src="./img/shortfont/sna5.PNG">
+                    <img src="./img/shortfont/sna6.PNG">
                 </div>
                 <div class="row">
                     <p><strong>软件供应商通告信息</strong></p>
@@ -442,12 +449,17 @@
                         <tr><th>项目</th><th>说明</th><th>详细连接</th></tr>
                         <tr>
                             <td>数据库Mysql Server 8.0测试</td>
-                            <td>MySQL 8.0因为带有Cache_SHA2_password不可用</td>
+                            <td>MySQL 8.0因为带有Cache_SHA2_password插件，可以使用8.0以前的版本解决问题。</td>
                             <td>点击查看</td>
                         </tr>
                         <tr>
                             <td>应用Bug提交声明</td>
                             <td>不接收Bug解决，自己解决或者付费解决。</td>
+                            <td>无</td>
+                        </tr>
+                        <tr>
+                            <td>支持国家问题</td>
+                            <td>目前支持5个国家，要很长时间才可以添加国家，可自己添加。</td>
                             <td>无</td>
                         </tr>
                     </table>
