@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SIK</title>
+	<meta charset="utf-8">
+</head>
+<body>
+	<table>
+		<tr>
+			<th>解决方案</th>
+			<th>作者</th>
+			<th>备注</th>
+		</tr>
+		<tr>
+			<td><a href="#solution1">单机，修改hosts文件，MySQL+IIS+PHP</a></td>
+			<td>甘耀通</td>
+			<td>无</td>
+		</tr>
+	</table>
+	
+<p>人们一定会想这个密码管理器应用这样使用对吗，或者是否增加什么功能上去，这个还缺一个什么功能，哪里还缺一张美丽的图片，旁边应该加一个声音什么的，我想这个应用就了，这就一张图片的了，不加声音太安静了，对我来说。</p>
+<p>人们还会说这个应用不符合我的要求，这个也不符合我们组织的要求，我们使用这个应用无法在激励的竞争中获得高效的工作效率，更曾加了从应用中还原的难度。这些所有的不符合的要求，我们一直在应用并获得了比以前更加高效的工作效率，并一张坚持使用这个应用。</p>
+
+<h1 id="solution1">单机，修改hosts文件，MySQL+IIS+PHP</h1>
+<p>说明：这个方案部署在一台计算机上面，需要修改HOSTS域名解析文件。比较麻烦。对于局域网其他电脑来说，要开通访问也比较麻烦，比如说，局域网的其他电脑要访问的话还要修改需求计算机上HOSTS文件。</p>
+<h2>单机部署文字教程</h2>
+<p>点击电脑菜单，浏览window 系统打开控制面板。点击程序，再点击启用或关闭window功能。 选择Internet Information Service复选框，下拉选择IIS管理服务复选框，IIS管理脚本和工具复选框，IIS管理控制台复选框。万维网下拉复选框全部选择。点击确定。</p>
+
+<p><strong>IIS安装成功。</strong></p>
+
+<p>打开浏览器输入https://dev.mysql.com/downloads/windows/installer/8.0.html下载MySQL Installer 5.7.22 版本，8.0版本不支持。双击mysql-installer-community-5.7.22.1.msi安装包安装。打开MySQL Installer安装MySQL server与MySQL Workbench。</p>
+
+<p><strong>MySQL安装成功。</strong></p>
+
+<p>这一步安装PHP，浏览器打开http://php.net/，下载window PHP 7.2，解压缩php-7.2.7-nts-Win32-VC15-x64.zip，复制php-7.2.7-nts-Win32-VC15-x64到C:\Program Files\PHP。</p>
+
+<p><strong>PHP安装成功。</strong></p>
+
+<h2>第二阶段</h2>
+<p>window任务栏搜索文本框输入IIS，点击Internet Information Services（IIS），在IIS应用中间区域的IIS标签中双击处理程序映射，点击右边的“添加模块映射”，请求路径填写*.php,模块选择FastCgiModule，可执行文件填写，C:\Program Files\PHP\php-7.2.7-nts-Win32-VC15-x64\php-cgi.exe, 名称填写PHP_via_FastCGI。确定。</p>
+
+<p><strong>IIS访问PHP的cgi设置成功。</strong></p>
+
+<p>选择IIS左边区域，右键网站，点击菜单添加网站，填写信息。网站名称填写SIK密码管理器，物理路径选择SIK PHP源码目录，IP地址填写127.0.0.1，主机名填写sik.homeuse.确定。</p>
+
+<p><strong>添加网站成功。</strong></p>
+
+<p>打开C:\Windows\System32\drivers\etc\hosts文件，添加“127.0.0.1	sik.homeuse”到文件里。保存，关闭。</p>
+
+<p><strong>修改Hosts文件成功。</strong></p>
+
+<h2>最后阶段</h2>
+<p>打开浏览器输入：http://sik.homeuse/install，输入MySQL数据库地址，MySQL端口，数据库名称，数据库用户名，数据库密码。点击下一步。</p>
+
+<p><strong>SIK安装成功。</strong></p>
+</body>
+</html>
