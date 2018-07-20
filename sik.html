@@ -19,6 +19,11 @@
 			<td>甘耀通</td>
 			<td>无</td>
 		</tr>
+		<tr>
+			<td><a href="#solution2">单机，修改hosts文件，MySQL+OAS+PHP</a></td>
+			<td>甘耀通</td>
+			<td>这个主要是不使用IIS，改用OAS</td>
+		</tr>
 	</table>
 	
 <p>人们一定会想这个密码管理器应用这样使用对吗，或者是否增加什么功能上去，这个还缺一个什么功能，哪里还缺一张美丽的图片，旁边应该加一个声音什么的，我想这个应用就了，这就一张图片的了，不加声音太安静了，对我来说。</p>
@@ -57,6 +62,14 @@
 
 <p><strong>SIK安装成功。</strong></p>
 
+<h1 id="solution2">单机，修改hosts文件，MySQL+OAS+PHP</h1>
+<p>这个来自《单机，修改hosts文件，MySQL+IIS+PHP》把IIS换成OAS。打开线下网场程序服务器，点击编辑，设计，选择PHP-cgi目录，确定。</p>
+
+<p><strong>OAS配置PHP成功。</strong></p>
+
+<P>打开线下网场程序服务器，点击添加，选择SIK密码管理器目录，点击确定。进入设置输入域名：http://sik.homeuse.选择fastcgi.路径路径填写“/”，后端填写127.0.0.1:9000,参数填写php。确定</P>
+
+<p><strong>OAS添加sik成功。</strong></p>
 
 <div class="menu">
     <a href="./index.html">返回</a>
