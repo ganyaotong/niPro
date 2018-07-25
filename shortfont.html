@@ -3,8 +3,14 @@
 <head>
 	<title>ShortFont快捷字应用</title>
 	<meta charset="utf-8">
+	<style type="text/css">
+		textarea{
+			width: 100%;
+		}
+	</style>
 </head>
 <body>
 <p>ShortFont应用是一个Web字体管理应用，这个应用不仅用于web字体管理，还用于多语言管理。</p>
+<p>ShortFont的原理是这样，基于一个键/值对你的web page文字进行设置，假设你的html是<textarea disabled="disabled"><p>我们一起</p></textarea>现在通过键重新修改代码<textarea disabled="disabled"><p data-computer-language="wetoge"></p></textarea>而把我们一起这字放到ShortFont应用里面，通过Javascript的SFC().render()就可以加载我们一起放到<textarea disabled="disabled"><p data-computer-language="wetoge">我们一起</p></textarea>里面,通过添加English版本可以快速实现上面的功能。而无需更改源码。<textarea disabled="disabled"><p data-computer-language="wetoge">we together</p></textarea></p>
 </body>
 </html>
