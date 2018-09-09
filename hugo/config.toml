@@ -1,0 +1,5 @@
+baseURL = "../blog"
+languageCode = "zh-cn"
+title = "平南县坦克网络技术有限公司博客"
+theme = "officalRed"
+publishDir = "../blog"

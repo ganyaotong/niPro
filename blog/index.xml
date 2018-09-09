@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>平南县坦克网络技术有限公司博客</title>
+    <link>../blog/</link>
+    <description>Recent content on 平南县坦克网络技术有限公司博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 08 Sep 2018 18:51:10 +0800</lastBuildDate>
+    
+	<atom:link href="../blog/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>平南县坦克网络技术有限公司将会开发macOS平台的DNS Desktop</title>
+      <link>../blog/post/%E5%B9%B3%E5%8D%97%E5%8E%BF%E5%9D%A6%E5%85%8B%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B0%86%E4%BC%9A%E5%BC%80%E5%8F%91macos%E5%B9%B3%E5%8F%B0%E7%9A%84dns-desktop/</link>
+      <pubDate>Sat, 08 Sep 2018 18:51:10 +0800</pubDate>
+      
+      <guid>../blog/post/%E5%B9%B3%E5%8D%97%E5%8E%BF%E5%9D%A6%E5%85%8B%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B0%86%E4%BC%9A%E5%BC%80%E5%8F%91macos%E5%B9%B3%E5%8F%B0%E7%9A%84dns-desktop/</guid>
+      <description>这文档描述平南县坦克网络技术有限公司开发DNS-Desktop程序活动，好的DNS（域名服务器）服务器是怎样开发出来的，我们通过健康的系统，不断研究，估计才能够开发出一个软件的基本样子。我们来看看，DNS-Desktop是在不断的递归开发过程中与人沟通，制定计划，对开发做详细记录，一系列规则中慢慢开发出来的。DNS-Desktop window 10版本给网上的用户使用，好在这个软件是自由使用，即你使用的DNS-Desktop是无需支付任何费用的，用户可以通过官方链接下载。现在的平台多得了，除了window， macOS, CentOS，还有很多操作系统平台，这些操作系统你只需要点击几下鼠标，敲击几下键盘，就可以通过官方网站下载，你还需要一下操作系统安装知识就可以安装好操作系统。 我们现在在坦克官方网站下载的DNS-Desktop支持的平台是window 10，如果你是window 10用户，可以在坦克官方进行下载。 域名服务器通常称为DNS，用户上网的时候打开浏览，在浏览器顶部，大部分浏览器的地址栏是在顶部，某些浏览可定制性也一样，用户应该不太喜欢把地址栏放到别处，有些操作系统像是window 10 在底部任务栏的搜索功能也可以输入地址。通过地址栏键入的域名就是DNS主要输入。DNS系统并不是带反馈功能的系统，不是你多输入域名给DNS，它就会记住。DNS主要输出是一个IPv4地址，在现在某些国家已经实行DNS解析IPv6地址了。你只要记住，DNS是完成一个这样的过程的系统:输入域名&amp;ndash;？输出IP地址。 DNS-Desktop是使用godns，其他依赖包，用到GO语言，C#语言，HTML语言，其他依赖语言设计出来的应用程序。这个DNS-Desktop应用程序放到坦克官方网站上面，用户只需登录坦克官方网站就可以轻易获得。这个应用程序使用更好，现在macOS平台也会开发DNS-Desktop，用户在window 10 平台上的体验可以与macOS平台上的体验过来了。这个应用程序开发需要大量的知识，人力，物力，各种资源。平南县坦克网络技术有限公司会不断投入这些知识，人力，物力，各种资源到这个程序。包括其他应用程序。macOS版本的DNS-Desktop会在近期进行设计。</description>
+    </item>
+    
+  </channel>
+</rss>

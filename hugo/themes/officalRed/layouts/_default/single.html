@@ -1,0 +1,30 @@
+{{ partial "header.html" }}
+
+<div id="blogSingle">
+<table>
+	<tr>
+		<th>名称</th>
+		<th>日期</th>
+		<th>摘要</th>
+		<th>分类</th>
+		<th>标签</th>
+	</tr>
+	<tr>
+		<td>{{ .Title }}</td>
+		{{ if eq .Type "post"}}
+		<td>{{ .Date }}</td>
+		{{end}}
+		<td>{{ .Description }}</td>
+		{{ range .Params.categories }}
+		<td>{{- . -}}</td>
+		{{ end }}
+		{{ range .Params.tags }}
+		<td>{{- . -}}</td>
+		{{ end }}
+	</tr>
+</table>
+
+{{ .Content }}
+</div>
+
+{{ partial "footer.html" }}

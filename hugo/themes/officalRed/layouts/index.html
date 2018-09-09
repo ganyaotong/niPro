@@ -1,0 +1,15 @@
+{{ partial "header.html" }}
+
+<div id="blogHome">
+	<h1>最新博客</h1>
+	<ul>
+	{{ range first 10 .Data.Pages }}
+		{{if eq .Type "post" }}
+		<li><a href="{{ .Permalink}}">{{ .Title }}</a><span class="date">{{ .Date }}</span></li>
+		{{ end }}
+	{{ end }}
+	</ul>
+</div>
+
+
+{{ partial "footer.html" }}

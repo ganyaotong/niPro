@@ -20,12 +20,16 @@ header{overflow:hidden; margin:1em;}
 #content #nav li a{text-decoration:none; font-weight:bold; color: black;}
 #content #nav li a:hover{color: white;}
 
-#l1 img, #l2 img{width:960px;}
-#l1-text{position:relative; top:-25em; left:10em; width:30em; height:0;}
-#l1-text ul{background-color:unset;}
-#l1-text ul li{list-style:disc; float:unset; width:100%; text-align:left;}
+#content #l1 img, #l2 img{width:960px;}
+#content #l1 #download{position:relative; top:-6em; left:10em; height:0; font-size:2em; font-weight:bold; width:20em;}
+#content #l1 #download a{text-decoration: none; color:white; padding:0.5em; border-radius:.3em; border:1px solid #FF2929; background-color:#FF2929;}
+#content #l1-text{position:relative; top:-25em; left:10em; width:30em; height:0;}
+#content #l2-text{position:relative; top:-20em; float:right; width:30em; height:0; color:#FF005E;}
 
-#l2-text{position:relative; top:-25em; height:0; width:20em; left:20em;}
+#content #l3 label{font-weight:bold; font-size:2em; text-align:center; display:block; color:#FF005E;}
+#content #l3 #showcase{width:960px; overflow-x:scroll; margin-top:1em;}
+#content #l3 #showcase #imgBox{display:inline-flex;}
+#content #l3 #showcase img{width:23em; float:left;}
 
 footer{border-top:.4em solid #FF2929;}
 menu li{list-style:none; width:10em;}
@@ -60,25 +64,32 @@ menu li a{text-decoration:none; color:black;}
 	<li><a href="./blog/">博客</a></li>
 </ul>
 <div id="l1">
-	<img src="./img/site-2018-09/softdesiged.jpg" />
+	<img src="./img/site-2018-09/http.jpg" />
 	<div id="l1-text">
-		<h3>软件开发</h3>
-		<p>2018年秋，过来设计软件，还等什么。拿着古老的文字，一系列服务等着你，咨询，业务系统，产品，邮件营销，面向云计算公司。</p>
-		<p>2018年秋，坦克也可以来一发：</p>
-		<ul>
-			<li>时间充足</li>
-			<li>快速开发</li>
-			<li>优质过程</li>
-		</ul>
+		<h1>马上把你的内容发布到网络</h1>
+		<h3>简单，而又快捷的HTTP(S)服务器</h3>
+		<p>OAS是一个http（s）服务器软件，这个软件开发无限快速地使你的目标达成。<br/>
+		点击马上下载</p>
+	</div>
+	<div id="download">
+		<a href="./offical/2018-09-05-index.html#oas">下载</a>
 	</div>
 </div>
 <div id="l2">
-	<img src="./img/site-2018-09/webdesiged.jpg" />
+	<img src="./img/site-2018-09/httpQuickly.jpg" />
 	<div id="l2-text">
-		<h3>Web网站设计</h3>
-		<p>我们一起从0开始到1开发一个网站，这个不是很麻烦，现在你只需要坐在我的旁边。</p>
-		<p>不管你愿不愿意相信坦克设计的网站</p>
-		<p>有<strong>优质，现代，安全</strong>存在于你认为的地方</p>
+		<h1>图形化用户操作界面</h1>
+		<p>在window上面通过图形交互完成你的指令</p>
+	</div>
+</div>
+<div id="l3">
+	<label>软件截图</label>
+	<div id="showcase">
+		<div id="imgBox">
+		<img src="./img/oas/v1/sna1.PNG" />
+		<img src="./img/oas/v1/sna2.PNG" />
+		<img src="./img/oas/v1/sna3.PNG" />
+		</div>
 	</div>
 </div>
 </div>
