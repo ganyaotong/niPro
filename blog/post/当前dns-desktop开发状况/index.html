@@ -1,4 +1,129 @@
-<h1>当前DNS Desktop开发状况</h1>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>平南县坦克网络技术有限公司</title>
+<style>
+header,#content{margin-left:1em; margin-right:1em;}
+header{overflow:hidden; margin:1em;}
+#welcome{width:20em; float:left;}
+#welcome h1,#welcome h2{margin:.1em;}
+#welcome h1{font-size:1.5em;}
+#welcome h2{font-size:1em;}
 
-<h2>2018-09-08 18:46:18 &#43;0800 CST</h2>
+#welext{overflow:hidden;}
+#welext ul{float:left; width:15em; margin:.1em; padding:.5em;}
+#welext ul li{list-style:none; font-size:.8em;}
 
+#content #nav{background: #FF2929; overflow:hidden; padding:.5em;}
+#content #nav li{list-style:none; float:left; width:10em; text-align:center;}
+#content #nav li a{text-decoration:none; font-weight:bold; color: black;}
+#content #nav li a:hover{color: white;}
+
+#blogHome h1{color:#FF005E;}
+#blogHome ul li{font-size:1.2em; list-style:decimal;}
+#blogHome ul li a{text-decoration:none; color:#000000;}
+#blogHome ul li a:hover{color:#FF005E;}
+#blogHome ul li a:visited{color:#CC2121}
+#blogHome ul li .date{font-size:.7em; float:right; position:relative; margin-top:.5em;}
+
+#blogSingle table{border:.2em solid #FF2929; width:100%;}
+#blogSingle table tr th{color:#FF005E;border-bottom:.1em solid #FF2929;}
+#blogSingle table tr td{margin-left:1em;border:.05em solid #FF2929;}
+#blogSingle table tr td:nth-child(1){width:20em;}
+
+
+footer{border-top:.4em solid #FF2929;}
+menu li{list-style:none; width:10em;}
+menu li:hover{background-color:#FF005E;}
+menu li a{text-decoration:none; color:black;}
+#copyright{width:20em; text-align:center; margin:auto;}
+#copyright p{margin:.1em; font-size:.8em;}
+</style>
+</head>
+<body>
+<header>
+<div id="welcome">
+<h1>平南县坦克网络技术有限公司</h1>
+<h2>欢迎你</h2>
+</div>
+<div id="welext">
+<ul>
+<li>地址：贵港市平南县大新镇三坡竹旧禾塘</li>
+<li>公司电话：0775-7682211</li>
+</ul>
+<ul>
+<li>电子邮箱：17776773784@189.com</li>
+<li>手机：17776773784</li>
+</ul>
+</div>
+</header>
+<div id="content">
+<ul id="nav">
+	<li><a href="../../../index.html">首页</a></li>
+	<li><a href="../../../dns.html">DNS-Desktop</a></li>
+	<li><a href="../../../http.html">OAS</a></li>
+	<li><a href="../../../blog/">博客</a></li>
+	<li><a href="../../../about.html">关于</a></li>
+</ul>
+
+<div id="blogSingle">
+<table>
+	<tr>
+		<th>名称</th>
+		<th>日期</th>
+		<th>摘要</th>
+		<th>分类</th>
+		<th>标签</th>
+	</tr>
+	<tr>
+		<td>当前DNS Desktop开发状况</td>
+		
+		<td>2018-09-08 18:46:18 &#43;0800 CST</td>
+		
+		<td>坦克DNS-Desktop服务器迭代开发，window 10以外的估计用不了，支持计划功能。</td>
+		
+		<td>软件开发</td>
+		
+		
+		<td>Hugo使用</td>
+		
+	</tr>
+</table>
+
+<p>大家最近在干嘛，来自我的问候。平南县坦克网络技术有限公司是DNS-Desktop软件的开发者，这款软件是解决开发、测试问题，从无到有的，在开发过程中，用户使用开源程序的时候会需要域名访问，某些用户会把程序代码部署到托管主机上面，把域名指向到托管主机上面进行开发。一个程序的开发过程大概是这样，在本地编写代码，然后把代码上传到托管主机上，然后打开浏览器测试，反馈，用户在这个过程中迭代。</p>
+
+<p>原因域名不能指向本地主机，一来修改hosts文件，指向127.0.0.1，但是本地开发可以访问，访问远程又不行了。二来通过修改hosts文件在团队使用的时候大家都要修改hosts文件，由于在手机上又不能修改hosts文件，因此手机设备真机开发不考虑，通过电脑模拟访问。这些通通可以这样说，顾得来本地开发，顾不来远程开发，顾得来远程开发，顾不来本地开发。这个问题一直又测试解决的，在本地开发真机模拟互联网，互联网需要在本地建立网络连接起来，在模拟DNS域名系统，统一解决浏览器开发问题。</p>
+
+<p>DNS-Desktop还在开发迭代过程中，各个方面均做好预案，代码备份，文档记录，系统统一使用公司正版window 10，现在来看，在window 10上可以运行稳定，在window 7，window 8，window vista，上估计运行不了，因为这些系统没有为开发人员提供统一的API，运行的环境变量不相同，在这些平台上开发遇到资金麻烦，无法进行。现在计划开发功能是</p>
+
+<ul>
+<li>自动启动服务</li>
+<li>支持9档（9个自带域名）</li>
+<li>健康检查</li>
+<li>报告</li>
+<li>恢复默认</li>
+<li>自动配置</li>
+<li>故障重启</li>
+<li>用户接口</li>
+</ul>
+
+<p>目前，正在计划中。大家见笑了，现在身边的工作又比较多除了维护几个软件与网站外，还有其他几个平台在维护。档案编辑大把工作在计划里面。
+留意这篇文章，备忘。</p>
+
+</div>
+
+</div>
+</div>
+<footer>
+<menu>
+<li><a href="../../../offical/index.html">网站地图</a></li>
+</menu>
+<div id="copyright">
+<p>© 2018 平南县坦克网络技术有限公司</p>
+<p>网站备案/许可证号：桂ICP备14004033号-1</p>
+<p>公安机关备案号:45082102000258</p>
+</div>
+</footer>
+</body>
+</html>
