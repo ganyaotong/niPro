@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>../blog/post/%E5%9C%A8%E7%A0%94%E7%A9%B6macos%E5%B9%B3%E5%8F%B0%E4%B8%8A%E7%9A%84swift%E4%BB%A3%E7%A0%81%E7%9A%84%E6%97%B6%E5%80%99%E4%BF%AE%E5%A4%8Dbug%E6%9C%89%E5%8A%A9%E4%BA%8Eoas/</loc>
+    <lastmod>2018-09-11T16:19:59+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>../blog/post/%E5%B9%B3%E5%8D%97%E5%8E%BF%E5%9D%A6%E5%85%8B%E7%BD%91%E7%BB%9C%E6%8A%80%E6%9C%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8%E5%B7%A5%E4%BD%9C%E7%8E%AF%E5%A2%83/</loc>
     <lastmod>2018-09-11T10:52:38+08:00</lastmod>
   </url>
@@ -48,6 +53,12 @@
   </url>
   
   <url>
+    <loc>../blog/tags/</loc>
+    <lastmod>2018-09-11T16:19:59+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>../blog/categories/</loc>
     <lastmod>2018-09-11T10:52:38+08:00</lastmod>
     <priority>0</priority>
@@ -67,13 +78,13 @@
   
   <url>
     <loc>../blog/post/</loc>
-    <lastmod>2018-09-11T10:52:38+08:00</lastmod>
+    <lastmod>2018-09-11T16:19:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>../blog/tags/</loc>
-    <lastmod>2018-09-08T18:51:10+08:00</lastmod>
+    <lastmod>2018-09-11T16:19:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -85,7 +96,7 @@
   
   <url>
     <loc>../blog/</loc>
-    <lastmod>2018-09-11T10:52:38+08:00</lastmod>
+    <lastmod>2018-09-11T16:19:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -97,7 +108,7 @@
   
   <url>
     <loc>../blog/categories/%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91/</loc>
-    <lastmod>2018-09-08T18:51:10+08:00</lastmod>
+    <lastmod>2018-09-11T16:19:59+08:00</lastmod>
     <priority>0</priority>
   </url>
   
