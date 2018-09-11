@@ -1,8 +1,8 @@
 ---
 title: "在研究macOS平台上的swift代码的时候修复Bug,有助于OAS"
 date: 2018-09-11T16:19:59+08:00
-description: ""
-Tags: [""]
+description: "别人swift 4代码发现bug，修复成功，可以移植使用。"
+Tags: ["技术可行性"]
 Categories: ["软件开发"]
 draft: false
 ---

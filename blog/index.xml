@@ -6,10 +6,22 @@
     <description>Recent content on 平南县坦克网络技术有限公司博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 11 Sep 2018 16:19:59 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 11 Sep 2018 17:02:57 +0800</lastBuildDate>
     
 	<atom:link href="../blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>DNSD2018 09 11TODO</title>
+      <link>../blog/post/dnsd2018-09-11todo/</link>
+      <pubDate>Tue, 11 Sep 2018 17:02:57 +0800</pubDate>
+      
+      <guid>../blog/post/dnsd2018-09-11todo/</guid>
+      <description>平南县坦克网络技术有限公司是DNS-Desktop的开发公司，（简称DNS-Desktop为DNSD）。在接下来的几天里，需要开发DNSD，赋予DNSD更稳健（Robust），灵活的特性。这些特性包括更新检测，更新对一个程序来说太重要了，更新分为两种更新，一种是自动更新，一种是手动更新。自动更新一般是程序启动的时候自动检查新版本，提醒用户更新，手动更新是用户打开设置界面点击检查更新。自动更新是比手动更新好，可以避免用户忘记更新，提醒用户更新。有的用户不喜欢自动更新，喜欢使用手动更新。 安装数据，安装数据是在用户安装程序的时候对用户安装环境，比如操作系统，安装统计数据的收集过程，这些数据对开发者说是很重要的数据，其通过判断系统来确认软件是否稳定。 运行数据，这个数据更重要，在运行过程中对软件的正常运行做记录，如果发现不正常，记录下来，方便开发人员排除异常运行，提高软件稳定性。
+更新系统设计 更新功能，提取远程json文件，解析文件，拿自身值与解析值作对比，比自身值大，提示更新。
+更新系统使用说明 如果需要更新的时候，把远程json文件指定更新值加1。
+当需要软件升级的时候，按更新系统使用说明操控。</description>
+    </item>
     
     <item>
       <title>在研究macOS平台上的swift代码的时候修复Bug,有助于OAS</title>

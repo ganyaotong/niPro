@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>技术可行性 on 平南县坦克网络技术有限公司博客</title>
+    <link>../blog/tags/%E6%8A%80%E6%9C%AF%E5%8F%AF%E8%A1%8C%E6%80%A7/</link>
+    <description>Recent content in 技术可行性 on 平南县坦克网络技术有限公司博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 11 Sep 2018 16:19:59 +0800</lastBuildDate>
+    
+	<atom:link href="../blog/tags/%E6%8A%80%E6%9C%AF%E5%8F%AF%E8%A1%8C%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>在研究macOS平台上的swift代码的时候修复Bug,有助于OAS</title>
+      <link>../blog/post/%E5%9C%A8%E7%A0%94%E7%A9%B6macos%E5%B9%B3%E5%8F%B0%E4%B8%8A%E7%9A%84swift%E4%BB%A3%E7%A0%81%E7%9A%84%E6%97%B6%E5%80%99%E4%BF%AE%E5%A4%8Dbug%E6%9C%89%E5%8A%A9%E4%BA%8Eoas/</link>
+      <pubDate>Tue, 11 Sep 2018 16:19:59 +0800</pubDate>
+      
+      <guid>../blog/post/%E5%9C%A8%E7%A0%94%E7%A9%B6macos%E5%B9%B3%E5%8F%B0%E4%B8%8A%E7%9A%84swift%E4%BB%A3%E7%A0%81%E7%9A%84%E6%97%B6%E5%80%99%E4%BF%AE%E5%A4%8Dbug%E6%9C%89%E5%8A%A9%E4%BA%8Eoas/</guid>
+      <description>记录一下，昨天晚上在查看别人的Swift4代码的时候发现bug，通过对这个bug研究，发现代码不完整，通过编写一部分代码来与这段代码拼接，成功解决这个Bug，我们非常高兴，这段代码在swift4中起到跨进程调用的作用，这个调用功能适合现在macOS版本的OAS，有了这段代码，OAS在macOS平台上的技术可行性提高。对我们来说非常重要。
+配图：Bug</description>
+    </item>
+    
+  </channel>
+</rss>
