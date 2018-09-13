@@ -1,5 +1,7 @@
 {	
 	"upgradeNumber":1,
-	"versionTitle":"niPro",
+	"version":"0.0.12",
+	"versionTitle":"版本升级",
+	"versionCode":"niPro",
 	"versionContent":"修复了很多bug,软件已经更稳定"
 }
