@@ -1,5 +1,6 @@
 {	
-	"upgradeNumber":0,
+	"softChineseName":"OAS,http(s)服务器"
+	"upgradeNumber":1,
 	"version":"0.0.12",
 	"versionTitle":"版本升级",
 	"versionCode":"niPro",
