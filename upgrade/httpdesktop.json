@@ -1,7 +1,7 @@
 {	
 	"softChineseName":"超文本协议服务器",
-	"upgradeNumber":1,
-	"version":"0.0.13",
+	"upgradeNumber":0,
+	"version":"0.0.12",
 	"versionTitle":"版本升级",
 	"versionCode":"niPro",
 	"versionContent":"修复了很多bug,软件已经更稳定,用户可以到达https://iido.com.cn去下载。"
