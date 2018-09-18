@@ -20,6 +20,11 @@ header{overflow:hidden; margin:1em; display:flex; flex-direction:row;}
 #content #nav li{list-style:none; float:left; width:10em; text-align:center;}
 #content #nav li a{text-decoration:none; font-weight:bold; color: black;}
 #content #nav li a:hover{color: white;}
+#content #nav #softdropdown{display:none; padding:0; position:absolute; flex-direction:column;background: #FF2929; border-bottom:1px solid #FF2929; border-bottom-right-radius:.5em; border-bottom-left-radius:.5em;}
+#content #nav #softdropdown li{line-height:2em;}
+#content #nav #softdropdown li:nth-child(1){padding-top:0.5em;}
+#content #nav #li-soft:hover #softdropdown{display:flex; }
+
 
 #content #l1 img, #content #l3 img{width:100%;}
 #content #l1 #download{position:relative; top:-6em; left:10em; height:0; font-size:2em; font-weight:bold; width:20em;}
@@ -51,7 +56,7 @@ menu li a{text-decoration:none; color:black;}
 <header>
 <div id="welcome">
 <h1>平南县坦克网络技术有限公司</h1>
-<h2>欢迎你</h2>
+<h2>响应式网站设计开发</h2>
 </div>
 <div id="welext">
 <ul>
@@ -70,8 +75,13 @@ menu li a{text-decoration:none; color:black;}
 <div id="content">
 <ul id="nav">
 	<li><a href="./index.html">首页</a></li>
-	<li><a href="./dns.html">DNS-Desktop</a></li>
-	<li><a href="./http.html">OAS</a></li>
+	<li id="li-soft">
+		<a href="#">软件</a>
+		<ul id="softdropdown">
+			<li><a href="./dns.html">DNS-Desktop</a></li>
+			<li><a href="./http.html">OAS</a></li>
+		</ul>
+	</li>
 	<li><a href="./blog/">博客</a></li>
 	<li><a href="./about.html">关于</a></li>
 </ul>
