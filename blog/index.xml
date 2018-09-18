@@ -6,10 +6,23 @@
     <description>Recent content on 平南县坦克网络技术有限公司博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 14 Sep 2018 11:29:22 +0800</lastBuildDate>
+    <lastBuildDate>Sun, 16 Sep 2018 14:18:16 +0800</lastBuildDate>
     
 	<atom:link href="../blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>裸机前端开发环境搭建</title>
+      <link>../blog/post/%E8%A3%B8%E6%9C%BA%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Sun, 16 Sep 2018 14:18:16 +0800</pubDate>
+      
+      <guid>../blog/post/%E8%A3%B8%E6%9C%BA%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
+      <description>前端是指使用HTML5与CSS3技术开发的html网页，我们使用平南县坦克网络技术有限公司的两个软件来搭建。 这里有几张截图，每张截图代表一个重要步骤。
+域名申请i.cc 做到一系列从注册到使用的功能，是使用了4个软件，具体到名称是，第一是火狐浏览器，第二个是Notepad++编辑器，其他两个是DNS-Desktop，OAS
+创建项目 使用DNS-Desktop申请域名i.cc，等下查看项目需要使用，创建文件夹&amp;rdquo;项目花&amp;rdquo;，并添加到OAS项目里。启动服务就一直处于服务状态。
+编辑项目 建立一个HTML5模板，使用的编辑便是Notepad++，这是一个正版，免费的编辑器。
+查看项目 查看我们编辑结果使用的软件就是火狐浏览器。开发HTML5，CSS3网页，用到的软件全在这里。</description>
+    </item>
     
     <item>
       <title>DnsDesktop迎来0012版本</title>

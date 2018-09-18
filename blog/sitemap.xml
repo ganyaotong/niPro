@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>../blog/post/%E8%A3%B8%E6%9C%BA%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2018-09-16T14:18:16+08:00</lastmod>
+  </url>
+  
+  <url>
     <loc>../blog/post/dnsdesktop%E8%BF%8E%E6%9D%A50012%E7%89%88%E6%9C%AC/</loc>
     <lastmod>2018-09-14T11:29:22+08:00</lastmod>
   </url>
@@ -69,7 +74,7 @@
   
   <url>
     <loc>../blog/tags/</loc>
-    <lastmod>2018-09-11T17:02:57+08:00</lastmod>
+    <lastmod>2018-09-16T14:18:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -93,13 +98,13 @@
   
   <url>
     <loc>../blog/post/</loc>
-    <lastmod>2018-09-14T11:29:22+08:00</lastmod>
+    <lastmod>2018-09-16T14:18:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>../blog/tags/</loc>
-    <lastmod>2018-09-11T17:02:57+08:00</lastmod>
+    <lastmod>2018-09-16T14:18:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -111,7 +116,7 @@
   
   <url>
     <loc>../blog/</loc>
-    <lastmod>2018-09-14T11:29:22+08:00</lastmod>
+    <lastmod>2018-09-16T14:18:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -130,6 +135,12 @@
   <url>
     <loc>../blog/tags/%E7%8E%AF%E5%A2%83/</loc>
     <lastmod>2018-09-11T10:52:38+08:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>../blog/categories/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/</loc>
+    <lastmod>2018-09-16T14:18:16+08:00</lastmod>
     <priority>0</priority>
   </url>
   
