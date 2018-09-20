@@ -3,9 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width" />
-<title>Hugo主题设计--平南县坦克网络技术有限公司</title>
+<title>平南县坦克网络技术有限公司</title>
 <style>
-strong{color:#FF005E;}
 header,#content{margin-left:1em; margin-right:1em; margin:1em;}
 header{overflow:hidden; margin:1em; display:flex; flex-direction:column;}
 #welcome{width:20em; float:left;}
@@ -37,6 +36,29 @@ header{overflow:hidden; margin:1em; display:flex; flex-direction:column;}
 #content #nav li{font-size:unset; line-height:unset; width:10em;}
 }
 
+#blogHome h1{color:#FF005E;}
+#blogHome ul{padding:0;}
+#blogHome ul li{font-size:1.2em; list-style:decimal;display:flex; flex-direction:column; padding:.2em;}
+#blogHome ul li:nth-child(even){background:#FFE6E6;}
+#blogHome ul li a{text-decoration:none; color:#000000;}
+#blogHome ul li a:hover{color:#FF005E;}
+#blogHome ul li a:visited{color:#CC2121}
+#blogHome ul li .date{font-size:.7em; float:right; position:relative; margin-top:.3em;}
+@media screen and (min-width:600px){
+#blogHome ul{padding:40px;}
+#blogHome ul li{flex-direction:row; display:list-item;}
+}
+
+#blogSingle table{border:.2em solid #FF2929; width:100%;}
+#blogSingle table tr th{color:#FF005E;border-bottom:.1em solid #FF2929;}
+#blogSingle table tr td{margin-left:1em;border:.05em solid #FF2929; font:caption;}
+#blogSingle table tr td:nth-child(1){width:20em;}
+#blogSingle img{width:100%;}
+@media screen and (min-width:600px){
+#blogSingle img{width:unset;}
+#blogSingle table tr td{font:unset;}
+}
+
 footer{border-top:.4em solid #FF2929;}
 menu li{list-style:none; width:10em;}
 menu li:hover{background-color:#FF005E;}
@@ -62,49 +84,56 @@ menu li a{text-decoration:none; color:black;}
 </ul>
 </div>
 <div id="log">
-<img src="./img/平南县坦克网络技术有限公司logo.png" />
+<img src="../../../img/平南县坦克网络技术有限公司logo.png" />
 </div>
 </header>
 <div id="content">
 <ul id="nav">
-	<li><a href="./index.html">首页</a></li>
+	<li><a href="../../../index.html">首页</a></li>
 	<li id="li-soft">
 		<a href="#">软件</a>
 		<ul id="softdropdown">
-			<li><a href="./dns.html">DNS-Desktop</a></li>
-			<li><a href="./http.html">OAS</a></li>
+			<li><a href="../../../dns.html">DNS-Desktop</a></li>
+			<li><a href="../../../http.html">OAS</a></li>
 		</ul>
 	</li>
-	<li><a href="./blog/">博客</a></li>
-	<li><a href="./about.html">关于</a></li>
+	<li><a href="../../../blog/">博客</a></li>
+	<li><a href="../../../about.html">关于</a></li>
 </ul>
-<div id="l1">
-	<img src="./img/site-2018-09/gohugo.svg" />
-	<div id="l1-text">
-		<p>Hugo是GO语言编写的HTML与CSS静态网站生产器。它优化了网站速度，使网站更容易使用，<br/>
-		同时提供了配置能力。Hugo使用模板语言把内容变成整个HTML网站。<br />
-		Hugo需要Markdown文件，需要头部带有元数据作为第一部分（内容作为第二部分）的Markdown文件。<br />
-		Hugo可以运行在任何目录，它托管主机与其他系统，在你没有特权的托管主机与其他系统上面运行得很好。<br/>
-		Hugo呈现一个中等大小的典型网站，一秒一小部分。很好的规则是他的每一块内容在大约一毫秒呈现。
-		Hugo是设计给网站的博客，文档使用，它在上面运行得很好。<br>
-		<strong>支持架构</strong><br/>
-		Hugo现在提供预编译的Window，Linux，FreeBSD，NetBSD，macOS（Darwin）与Android x64，i386与ARM的二进制。<br/>
-		Hugo应该也支持其他支持Go编译器工具链能够运行的系统，包括DragonFly BSD， OpenBSD，Plan 9 与 Solaris。<br/>
-		完整文档支持请转到<a href="https://gohugo.io/overview/introduction/">Hugo文档</a><br/>
-		</p>
-		<h2>THEME</h2>
-		<p>Hugo提供强壮的主题系统，它容易实现功能特性。你可以转到Hugo社区创建的主题网站<br/>
-		<a href="http://themes.gohugo.io/">Hugo Theme Website</a>，Hugo是由优秀的Go模板库支持，它减少了<br/>
-		代码的重复。它们容易定制。
-		<p>
-	</div>
+
+<div id="blogSingle">
+<table>
+	<tr>
+		<th>名称</th>
+		<th>日期</th>
+		<th>摘要</th>
+		<th>分类</th>
+		<th>标签</th>
+	</tr>
+	<tr>
+		<td>坦克旗舰产品应用场景一</td>
+		
+		<td>2018-09-20 10:49:31 &#43;0800 CST</td>
+		
+		<td></td>
+		
+		<td></td>
+		
+		
+		<td></td>
+		
+	</tr>
+</table>
+
+<p>坦克旗舰产品应用场景一，组织管理员辛苦地准备了一些部分资料，准备开会，会议每个非管理员与管理员都参与进来，大家辛苦的工作，又准备了这麽多资料，资料多到半个钟头也讲不完成，只能够加会议时间。工作人员累极了，但无奈，会议有很多部分记不清楚，只有拿笔记录，但会议讲话速度较快，记不了那么多，开会结束辛苦了1个小时，确忘记了很多开户信息。
+使用坦克旗舰产品，把公司的电脑应用起来，需要一台电脑设成服务器，让工作人员大家一起把电脑与手机设置成为网络，公司网络应用起来，开会前准备文档发布到公司网络。工作人员大家可以在任何时候，公司地点查看会议信息。</p>
+
 </div>
 
 </div>
-</div>
 <footer>
 <menu>
-<li><a href="./offical/index.html">网站地图</a></li>
+<li><a href="../../../offical/index.html">网站地图</a></li>
 </menu>
 <div id="copyright">
 <p>© 2018 平南县坦克网络技术有限公司</p>
@@ -112,7 +141,7 @@ menu li a{text-decoration:none; color:black;}
 <p>公安机关备案号:45082102000258</p>
 </div>
 </footer>
-<!-- Global site tag (gtag.js) - Google Analytics -->
+
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-113916526-1"></script>
 <script>
   window.dataLayer = window.dataLayer || [];

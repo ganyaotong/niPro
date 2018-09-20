@@ -2,40 +2,62 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
 <title>平南县坦克网络技术有限公司</title>
 <style>
-header,#content{margin-left:1em; margin-right:1em;}
-header{overflow:hidden; margin:1em; display:flex; flex-direction:row;}
+header,#content{margin-left:1em; margin-right:1em; margin:1em;}
+header{overflow:hidden; margin:1em; display:flex; flex-direction:column;}
 #welcome{width:20em; float:left;}
 #welcome h1,#welcome h2{margin:.1em;}
 #welcome h1{font-size:1.5em;}
 #welcome h2{font-size:1em;}
 
-#welext{overflow:hidden; display:flex; flex-direction:row;}
-#welext ul{float:left; width:15em; margin:.1em; padding:.5em;}
-#welext ul li{list-style:none; font-size:.8em;}
-#log img{width:5em;}
+#welext{overflow:hidden; display:flex; flex-direction:column;}
+#welext ul{float:left; width:100%; margin:.1em; padding:.5em;}
+#welext ul li{list-style:none; font-size:.9em;}
+#log img{width:5em; display:none;}
+@media screen and (min-width:600px){
+	header{flex-direction:row;}
+	#welext{flex-direction:row;}
+	#log img{display:unset;}
+}
 
-#content #nav{background: #FF2929; overflow:hidden; padding:.5em;}
-#content #nav li{list-style:none; float:left; width:10em; text-align:center;}
+#content{display:flex; flex-direction:column;}
+#content #nav{background: #FF2929; overflow:hidden; padding:.5em; display:flex; flex-direction:column;}
+#content #nav li{list-style:none; width:100%; text-align:center;line-height:2em; text-align:center; font-size:1.2em;}
 #content #nav li a{text-decoration:none; font-weight:bold; color: black;}
 #content #nav li a:hover{color: white;}
 #content #nav #softdropdown{display:none; padding:0; position:absolute; flex-direction:column;background: #FF2929; border-bottom:1px solid #FF2929; border-bottom-right-radius:.5em; border-bottom-left-radius:.5em;}
 #content #nav #softdropdown li{line-height:2em;}
 #content #nav #softdropdown li:nth-child(1){padding-top:0.5em;}
 #content #nav #li-soft:hover #softdropdown{display:flex; }
+@media screen and (min-width:600px){
+#content #nav{flex-direction:unset;}
+#content #nav li{font-size:unset; line-height:unset; width:10em;}
+}
 
 #blogHome h1{color:#FF005E;}
-#blogHome ul li{font-size:1.2em; list-style:decimal;}
+#blogHome ul{padding:0;}
+#blogHome ul li{font-size:1.2em; list-style:decimal;display:flex; flex-direction:column; padding:.2em;}
+#blogHome ul li:nth-child(even){background:#FFE6E6;}
 #blogHome ul li a{text-decoration:none; color:#000000;}
 #blogHome ul li a:hover{color:#FF005E;}
 #blogHome ul li a:visited{color:#CC2121}
 #blogHome ul li .date{font-size:.7em; float:right; position:relative; margin-top:.3em;}
+@media screen and (min-width:600px){
+#blogHome ul{padding:40px;}
+#blogHome ul li{flex-direction:row; display:list-item;}
+}
 
 #blogSingle table{border:.2em solid #FF2929; width:100%;}
 #blogSingle table tr th{color:#FF005E;border-bottom:.1em solid #FF2929;}
-#blogSingle table tr td{margin-left:1em;border:.05em solid #FF2929;}
+#blogSingle table tr td{margin-left:1em;border:.05em solid #FF2929; font:caption;}
 #blogSingle table tr td:nth-child(1){width:20em;}
+#blogSingle img{width:100%;}
+@media screen and (min-width:600px){
+#blogSingle img{width:unset;}
+#blogSingle table tr td{font:unset;}
+}
 
 footer{border-top:.4em solid #FF2929;}
 menu li{list-style:none; width:10em;}
@@ -109,13 +131,13 @@ menu li a{text-decoration:none; color:black;}
 安装数据，安装数据是在用户安装程序的时候对用户安装环境，比如操作系统，安装统计数据的收集过程，这些数据对开发者说是很重要的数据，其通过判断系统来确认软件是否稳定。
 运行数据，这个数据更重要，在运行过程中对软件的正常运行做记录，如果发现不正常，记录下来，方便开发人员排除异常运行，提高软件稳定性。</p>
 
-<img title="稳健" alt="稳健" src="../../image/2018-09-11/robust.jpg" style="width:960px;">
+<p><img src="../../image/2018-09-11/robust.jpg" alt="稳健" title="稳健" /></p>
 
 <h4 id="更新系统设计">更新系统设计</h4>
 
 <p>更新功能，提取远程json文件，解析文件，拿自身值与解析值作对比，比自身值大，提示更新。</p>
 
-<h5 id="更新系统使用说明">更新系统使用说明</h5>
+<h4 id="更新系统使用说明">更新系统使用说明</h4>
 
 <p>如果需要更新的时候，把远程json文件指定更新值加1。</p>
 
