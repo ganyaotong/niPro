@@ -40,6 +40,14 @@ header{overflow:hidden; margin:1em; display:flex; flex-direction:column;}
 	#content #nav li a{font-size:1.3em;}
 }
 
+#soft{display:flex; flex-direction:row; width:100%;}
+#soft #caddyGUI,#soft #dns{padding:.3em;}
+#soft #caddyGUI img,#soft #dns img{width:100%; }
+#soft #caddyGUI h3,#soft #dns h3{position:relative; margin:0; bottom:0; text-align:center;}
+@media screen and (min-width:600px){
+#soft{display:none;}
+}
+
 #l0,#l1,#l2{display:flex; flex-direction:column;}
 #l0 img, #l1 img, #l2 img{width:100%;}
 @media screen and (min-width:600px){
@@ -47,14 +55,11 @@ header{overflow:hidden; margin:1em; display:flex; flex-direction:column;}
 #l0-text{position:relative; font-size:1.3em; top:-19em; width:70%; height:0; margin:auto; text-align:center; color:#80002f;}
 #l0-text p:nth-child(3){font-weight:bold;}
 
-#l1-text{position:relative; top:-25em; left:10em; width:30em; height:0;}
+#l1-text{position:relative; font-size:1.3em; top:-20em; left:10em; width:30em; height:0;}
 #l1-text ul{background-color:unset;}
 #l1-text ul li{list-style:disc; float:unset; width:100%; text-align:left;}
-@media screen and (min-width:600px){
-#l1-text{font-size:1.3em;}
-}
 
-#l2-text{position:relative; top:-25em; height:0; width:20em; left:20em;}
+#l2-text{position:relative; font-size:1.3em; top:-20em; height:0; width:20em; margin:auto;}
 }
 @media screen and (min-width:600px){
 #l2-text{font-size:1.3em;}
@@ -103,6 +108,16 @@ menu li a{text-decoration:none; color:black;}
 	<li><a href="./blog/">博客</a></li>
 	<li><a href="./about.html">关于</a></li>
 </ul>
+<div id="soft">
+	<a id="caddyGUI" href="./http.html">
+		<img src="./img/site-2018-09/软件caddyGUI-首页跳转-背景.jpg" />
+		<h3>CaddyGUI</h3>
+	</a>
+	<a id="dns" href="./dns.html">
+		<img src="./img/site-2018-09/软件caddyGUI-首页跳转-背景.jpg" />
+		<h3>DNS-Desktop</h3>
+	</a>
+</div>
 <div id="l0">
 	<img src="./img/site-2018-09/welcomedoor.jpg" />
 	<div id="l0-text">
