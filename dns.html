@@ -2,47 +2,78 @@
 <html>
 <head>
 <meta charset="utf-8">
+<meta name="viewport" content="width=device-width" />
 <title>平南县坦克网络技术有限公司</title>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2026295738752475",
+    enable_page_level_ads: true
+  });
+</script>
 <style>
-header,#content{margin-left:1em; margin-right:1em;}
-header{overflow:hidden; margin:1em; display:flex; flex-direction:row;}
+header,#content{margin-left:1em; margin-right:1em; margin:1em;}
+header{overflow:hidden; margin:1em; display:flex; flex-direction:column;}
 #welcome{width:20em; float:left;}
 #welcome h1,#welcome h2{margin:.1em;}
 #welcome h1{font-size:1.5em;}
 #welcome h2{font-size:1em;}
 
-#welext{overflow:hidden; display:flex; flex-direction:row;}
-#welext ul{float:left; width:15em; margin:.1em; padding:.5em;}
-#welext ul li{list-style:none; font-size:.8em;}
-#log img{width:5em;}
+#welext{overflow:hidden; display:flex; flex-direction:column;}
+#welext ul{float:left; width:100%; margin:.1em; padding:.5em;}
+#welext ul li{list-style:none; font-size:.9em;}
+#log img{width:5em; display:none;}
+@media screen and (min-width:600px){
+	header{flex-direction:row;}
+	#welext{flex-direction:row;}
+	#log img{display:unset;}
+}
 
-#content #nav{background: #FF2929; overflow:hidden; padding:.5em;}
-#content #nav li{list-style:none; float:left; width:10em; text-align:center;}
+#content{display:flex; flex-direction:column;}
+#content #nav{background: #FF2929; overflow:hidden; padding:.5em; display:flex; flex-direction:column;}
+#content #nav li{list-style:none; width:100%; text-align:center;line-height:2em; text-align:center; font-size:1.2em;}
 #content #nav li a{text-decoration:none; font-weight:bold; color: black;}
 #content #nav li a:hover{color: white;}
 #content #nav #softdropdown{display:none; padding:0; position:absolute; flex-direction:column;background: #FF2929; border-bottom:1px solid #FF2929; border-bottom-right-radius:.5em; border-bottom-left-radius:.5em;}
 #content #nav #softdropdown li{line-height:2em;}
 #content #nav #softdropdown li:nth-child(1){padding-top:0.5em;}
 #content #nav #li-soft:hover #softdropdown{display:flex; }
+@media screen and (min-width:600px){
+#content #nav{flex-direction:unset;}
+#content #nav li{font-size:unset; line-height:unset; width:10em;}
+}
+@media screen and (min-width:1300px){
+	#content #nav li{line-height:2em;}
+	#content #nav li a{font-size:1.3em;}
+}
 
+#l1 img, #l3 img{width:100%;}
+#l1 #download{position:relative; top:-3em; left:1em; height:0; font-size:1.2em; font-weight:bold;}
+#l1 #download a{text-decoration: none; color:white; padding:0.5em; border-radius:.3em; border:1px solid #FF2929; background-color:#FF2929;}
+@media screen and (min-width:600px){
+#l1 #download{top:-6em; left:10em; font-size:2em; width:20em;}
+}
 
-#content #l1 img, #content #l3 img{width:100%;}
-#content #l1 #download{position:relative; top:-6em; left:10em; height:0; font-size:2em; font-weight:bold; width:20em;}
-#content #l1 #download a{text-decoration: none; color:white; padding:0.5em; border-radius:.3em; border:1px solid #FF2929; background-color:#FF2929;}
+#l2{display:flex; flex-direction:column;}
+#l2 label,#content #l4 label{display:block; font-weight:bold; margin:auto; font-size:2em; text-align:center;}
+#l2 #functionBox{display:flex; flex-direction:column; margin:auto;}
+#l2 #functionBox ul{width:100%; float:left; padding:0; text-align:center;}
+#l2 #functionBox ul li{font-size:1.3em; list-style:none;}
+@media screen and (min-width:600px){
+#l2{height:13em; margin:2em;}
+#l2 #functionBox{width:30em; margin:auto; flex-direction:row;}
+#l2 #functionBox ul{width:50%;}
+}
 
-#content #l2{height:13em; margin:2em;}
-#content #l2 label,#content #l4 label{display:block; font-weight:bold; margin:auto; font-size:2em; text-align:center;}
-#content #l2 #functionBox{width:30em; margin:auto;}
-#content #l2 #functionBox ul{width:50%; float:left; padding:0; text-align:center;}
-#content #l2 #functionBox ul li{font-size:1.3em; list-style:none;}
+#l3{margin-top:2em; margin-bottom:2em;}
+#l3-text{position:relative; top:-3em; left:4em; width:12em; font-size:1.2em; font-weight:bold; height:0;}
+#l3 a{text-decoration: none; color:white; padding:0.5em; border-radius:.3em; border:1px solid #FF2929; background-color:#FF2929;}
+@media screen and (min-width:600px){
+#l3-text{top:-5em; left:14em; font-size:2em;}
+}
 
-#content #l3{margin-top:2em; margin-bottom:2em;}
-#content #l3-text{position:relative; top:-5em; left:14em; width:12em; font-size:2em; font-weight:bold; height:0;}
-#content #l3 a{text-decoration: none; color:white; padding:0.5em; border-radius:.3em; border:1px solid #FF2929; background-color:#FF2929;}
-
-#content #l4 #showcase{width:100%; overflow-x:scroll; margin-top:1em;}
-#content #l4 #showcase #imgBox{display:inline-flex;}
-#content #l4 #showcase img{width:18em; float:left;}
+#l4 #showcase{width:100%; overflow-x:scroll; margin-top:1em; display:flex; flex-direction:row;}
+#l4 #showcase img{}
 
 footer{border-top:.4em solid #FF2929;}
 menu li{list-style:none; width:10em;}
@@ -117,13 +148,11 @@ menu li a{text-decoration:none; color:black;}
 <div id="l4">
 	<label>软件截图</label>
 	<div id="showcase">
-		<div id="imgBox">
 		<img src="./img/dns/verson_1/sna0.PNG" />
 		<img src="./img/dns/verson_1/sna13.PNG" />
 		<img src="./img/dns/verson_1/sna14.PNG" />
 		<img src="./img/dns/verson_1/sna15.PNG" />
 		<img src="./img/dns/verson_1/sna16.PNG" />
-		</div>
 	</div>
 </div>
 </div>

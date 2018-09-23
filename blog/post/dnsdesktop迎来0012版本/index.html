@@ -2,40 +2,73 @@
 <html>
 <head>
 <meta charset="utf-8">
-<title>平南县坦克网络技术有限公司</title>
+<meta name="viewport" content="width=device-width" />
+<title>博客-平南县坦克网络技术有限公司</title>
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<script>
+  (adsbygoogle = window.adsbygoogle || []).push({
+    google_ad_client: "ca-pub-2026295738752475",
+    enable_page_level_ads: true
+  });
+</script>
 <style>
-header,#content{margin-left:1em; margin-right:1em;}
-header{overflow:hidden; margin:1em; display:flex; flex-direction:row;}
+header,#content{margin-left:1em; margin-right:1em; margin:1em;}
+header{overflow:hidden; margin:1em; display:flex; flex-direction:column;}
 #welcome{width:20em; float:left;}
 #welcome h1,#welcome h2{margin:.1em;}
 #welcome h1{font-size:1.5em;}
 #welcome h2{font-size:1em;}
 
-#welext{overflow:hidden; display:flex; flex-direction:row;}
-#welext ul{float:left; width:15em; margin:.1em; padding:.5em;}
-#welext ul li{list-style:none; font-size:.8em;}
-#log img{width:5em;}
+#welext{overflow:hidden; display:flex; flex-direction:column;}
+#welext ul{float:left; width:100%; margin:.1em; padding:.5em;}
+#welext ul li{list-style:none; font-size:.9em;}
+#log img{width:5em; display:none;}
+@media screen and (min-width:600px){
+	header{flex-direction:row;}
+	#welext{flex-direction:row;}
+	#log img{display:unset;}
+}
 
-#content #nav{background: #FF2929; overflow:hidden; padding:.5em;}
-#content #nav li{list-style:none; float:left; width:10em; text-align:center;}
+#content{display:flex; flex-direction:column;}
+#content #nav{background: #FF2929; overflow:hidden; padding:.5em; display:flex; flex-direction:column;}
+#content #nav li{list-style:none; width:100%; text-align:center;line-height:2em; text-align:center; font-size:1.2em;}
 #content #nav li a{text-decoration:none; font-weight:bold; color: black;}
 #content #nav li a:hover{color: white;}
 #content #nav #softdropdown{display:none; padding:0; position:absolute; flex-direction:column;background: #FF2929; border-bottom:1px solid #FF2929; border-bottom-right-radius:.5em; border-bottom-left-radius:.5em;}
 #content #nav #softdropdown li{line-height:2em;}
 #content #nav #softdropdown li:nth-child(1){padding-top:0.5em;}
 #content #nav #li-soft:hover #softdropdown{display:flex; }
+@media screen and (min-width:600px){
+#content #nav{flex-direction:unset;}
+#content #nav li{font-size:unset; line-height:unset; width:10em;}
+}
+@media screen and (min-width:1300px){
+	#content #nav li{line-height:2em;}
+	#content #nav li a{font-size:1.3em;}
+}
 
 #blogHome h1{color:#FF005E;}
-#blogHome ul li{font-size:1.2em; list-style:decimal;}
+#blogHome ul{padding:0;}
+#blogHome ul li{font-size:1.2em; list-style:decimal;display:flex; flex-direction:column; padding:.2em;}
+#blogHome ul li:nth-child(even){background:#FFE6E6;}
 #blogHome ul li a{text-decoration:none; color:#000000;}
 #blogHome ul li a:hover{color:#FF005E;}
 #blogHome ul li a:visited{color:#CC2121}
 #blogHome ul li .date{font-size:.7em; float:right; position:relative; margin-top:.3em;}
+@media screen and (min-width:600px){
+#blogHome ul{padding:40px;}
+#blogHome ul li{flex-direction:row; display:list-item;}
+}
 
 #blogSingle table{border:.2em solid #FF2929; width:100%;}
 #blogSingle table tr th{color:#FF005E;border-bottom:.1em solid #FF2929;}
-#blogSingle table tr td{margin-left:1em;border:.05em solid #FF2929;}
+#blogSingle table tr td{margin-left:1em;border:.05em solid #FF2929; font:caption;}
 #blogSingle table tr td:nth-child(1){width:20em;}
+#blogSingle img{width:100%;}
+@media screen and (min-width:600px){
+#blogSingle img{width:unset;}
+#blogSingle table tr td{font:unset;}
+}
 
 footer{border-top:.4em solid #FF2929;}
 menu li{list-style:none; width:10em;}
@@ -103,7 +136,7 @@ menu li a{text-decoration:none; color:black;}
 	</tr>
 </table>
 
-<p>DNS-Desktop是一个只支持A记录的域名服务器，如果用户是开发者，这个软件很适合开发者，软件的目的是开发者在本地开发手机app的时候,提供这样一个效率，假设开发者的开发机地址是192.168.0.105，我们开发app时候，在相同的子网内通过192.168.0.105访问开发者的开发机，替换192.168.0.105为<a href="http://iido.b域名可以提供效率并模拟http://www.example.com生产环境。这个软件同时适用于一切在本地需要使用到域名解析的情况。">http://iido.b域名可以提供效率并模拟http://www.example.com生产环境。这个软件同时适用于一切在本地需要使用到域名解析的情况。</a>
+<p>DNS-Desktop是一个只支持A记录的域名服务器，如果用户是开发者，这个软件很适合开发者，软件的目的是开发者在本地开发手机app的时候,提供这样一个效率，假设开发者的开发机地址是192.168.0.105，我们开发app时候，在相同的子网内通过192.168.0.105访问开发者的开发机，替换192.168.0.105为<a href="http://iido.b">http://iido.b</a>域名可以提供效率并模拟<a href="http://www.example.com">http://www.example.com</a>生产环境。这个软件同时适用于一切在本地需要使用到域名解析的情况。
 DNS-Desktop现在版本是0.0.12，这个软件最新更新支持升级提醒功能，修复软件自动启动bug。用户可以到达iido.com.cn下载。</p>
 
 </div>
