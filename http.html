@@ -59,9 +59,15 @@ header{overflow:hidden; margin:1em; display:flex; flex-direction:column;}
 #l2-text{position:relative; top:-20em; float:right; width:30em; height:0; color:#FF005E;}
 }
 
-#l3 label{font-weight:bold; font-size:2em; text-align:center; display:block; color:#FF005E;}
-#l3 #showcase{width:100%; overflow-x:scroll; margin-top:1em; display:flex; flex-direction:row;}
-#l3 #showcase img{}
+#l3 h2{font-weight:bold; font-size:2em; text-align:center; display:block; color:#FF005E;}
+#l3 #showcase{width:100%; overflow-x:scroll; margin-top:1em;}
+#l3 #showcase #imgBox{display:flex; flex-direction:column;}
+#l3 #showcase img{width:20em; float:left;}
+@media screen and (min-width:600px){
+	#l3 #showcase{} 
+	#l3 #showcase #imgBox{display:inline-flex; flex-direction:unset;} 
+	#l3 #showcase img{width:28em;} 
+}
 
 footer{border-top:.4em solid #FF2929;}
 menu li{list-style:none; width:10em;}
@@ -99,6 +105,7 @@ menu li a{text-decoration:none; color:black;}
 		<ul id="softdropdown">
 			<li><a href="./dns.html">DNS-Desktop</a></li>
 			<li><a href="./http.html">OAS</a></li>
+			<li><a href="./sik.html">sik密码管理器</a></li>
 		</ul>
 	</li>
 	<li><a href="./blog/">博客</a></li>
@@ -125,11 +132,13 @@ menu li a{text-decoration:none; color:black;}
 	</div>
 </div>
 <div id="l3">
-	<label>软件截图</label>
+	<h2>软件截图</h2>
 	<div id="showcase">
-		<img src="./img/oas/v1/sna1.PNG" />
-		<img src="./img/oas/v1/sna2.PNG" />
-		<img src="./img/oas/v1/sna3.PNG" />
+		<div id="imgBox">
+			<img src="./img/oas/v1/sna1.PNG" />
+			<img src="./img/oas/v1/sna2.PNG" />
+			<img src="./img/oas/v1/sna3.PNG" />
+		</div>
 	</div>
 </div>
 </div>

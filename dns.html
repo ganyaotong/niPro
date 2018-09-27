@@ -72,8 +72,14 @@ header{overflow:hidden; margin:1em; display:flex; flex-direction:column;}
 #l3-text{top:-5em; left:14em; font-size:2em;}
 }
 
-#l4 #showcase{width:100%; overflow-x:scroll; margin-top:1em; display:flex; flex-direction:row;}
-#l4 #showcase img{}
+#l4 #showcase{width:100%; overflow-x:scroll; margin-top:1em;}
+#l4 #showcase #imgBox{display:flex; flex-direction:column;}
+#l4 #showcase img{width:20em; float:left;}
+@media screen and (min-width:600px){
+	#l4 #showcase{} 
+	#l4 #showcase #imgBox{display:inline-flex; flex-direction:unset;} 
+	#l4 #showcase img{width:28em;} 
+}
 
 footer{border-top:.4em solid #FF2929;}
 menu li{list-style:none; width:10em;}
@@ -111,6 +117,7 @@ menu li a{text-decoration:none; color:black;}
 		<ul id="softdropdown">
 			<li><a href="./dns.html">DNS-Desktop</a></li>
 			<li><a href="./http.html">OAS</a></li>
+			<li><a href="./sik.html">sik密码管理器</a></li>
 		</ul>
 	</li>
 	<li><a href="./blog/">博客</a></li>
@@ -148,11 +155,13 @@ menu li a{text-decoration:none; color:black;}
 <div id="l4">
 	<label>软件截图</label>
 	<div id="showcase">
-		<img src="./img/dns/verson_1/sna0.PNG" />
-		<img src="./img/dns/verson_1/sna13.PNG" />
-		<img src="./img/dns/verson_1/sna14.PNG" />
-		<img src="./img/dns/verson_1/sna15.PNG" />
-		<img src="./img/dns/verson_1/sna16.PNG" />
+		<div id="imgBox">
+			<img src="./img/dns/verson_1/sna0.PNG" />
+			<img src="./img/dns/verson_1/sna13.PNG" />
+			<img src="./img/dns/verson_1/sna14.PNG" />
+			<img src="./img/dns/verson_1/sna15.PNG" />
+			<img src="./img/dns/verson_1/sna16.PNG" />
+		</div>
 	</div>
 </div>
 </div>
