@@ -47,7 +47,35 @@ header{overflow:hidden; margin:1em; display:flex; flex-direction:column;}
 	#content #nav li a{font-size:1.3em;}
 }
 
-#l1 img{width:100%;}
+#l1 img, #l2 img{width:100%;}
+#l1 #download{position:relative; top:-3em; left:1em; height:0; font-size:1.2em; font-weight:bold;}
+#l1 #download a{text-decoration: none; color:white; padding:0.5em; border-radius:.3em; border:1px solid #FF2929; background-color:#FF2929;}
+@media screen and (min-width:600px){
+#l1 #download{top:-6em; left:10em; font-size:2em; width:20em;}
+}
+
+#l2{display:flex; flex-direction:column;}
+#l2 label,#content #l4 label{display:block; font-weight:bold; margin:auto; font-size:2em; text-align:center;}
+@media screen and (min-width:600px){
+#l2{}
+}
+
+#l3{margin-top:2em; margin-bottom:2em;}
+#l3 img{width:100%;}
+#l3-text{}
+
+@media screen and (min-width:600px){
+#l3-text{}
+}
+
+#l4 #showcase{width:100%; overflow-x:scroll; margin-top:1em;}
+#l4 #showcase #imgBox{display:flex; flex-direction:column;}
+#l4 #showcase img{width:20em; float:left;}
+@media screen and (min-width:600px){
+	#l4 #showcase{} 
+	#l4 #showcase #imgBox{display:inline-flex; flex-direction:unset;} 
+	#l4 #showcase img{width:28em;} 
+}
 
 footer{border-top:.4em solid #FF2929;}
 menu li{list-style:none; width:10em;}
@@ -92,14 +120,32 @@ menu li a{text-decoration:none; color:black;}
 	<li><a href="./blog/">博客</a></li>
 	<li><a href="./about.html">关于</a></li>
 </ul>
+<div>
+	<h2>什么是新通平台?</h2>
+	<p>新通平台使用很多技术把我们企业使用的项目，连成一个可以提供服务的平台，使用这些复杂的技术，去掉落后的模式。保证任何项目在开发的时候采用新通平台，项目从新通平台获得技术支持。</p>
+</div>
 <div id="l1">
-	<img src="./img/site-2018-09/about.jpg" />
-<p>平南县地理位置是在广西省贵港市，大家可以通过中国高铁到达平南，平南南高铁站可是容纳得非常多人的，到达平南县坦克网络技术有限公司需要半个小时。你想一下，如果你的朋友拥有一辆坦克是什么体验，有的战士朋友会每天战斗，有的明星朋友每天会出show，有的创造朋友每天改造等等。进来平南县坦克网络技术有限公司，一样会有这些感觉，高兴坏了。在2014年的时候，你在期待什么开心事情呢，你不会也和你的朋友我一样吧，一样在期待自己充满力量，让大家感觉自己无所不能，这样可靠的而有能力的伙伴，创办一家欢乐的企业。在这年，平南县坦克网络技术有限公司就被我在平南县工商局小心地注册了，成立了。感觉到安心吗，感觉到安全吗，在平南县坦克网络技术有限公司上班，我们可以进行愉快而自由地工作，平南县坦克网络技术有限公司可以与苹果，微软，Linux社区一起，拒绝盗版系统，欢乐地进行工作不再打碎显示器与键盘，在整个无毒的工作环境。一起创造未来。<br />
-<br />
-无趣的、临近下班的上午，你通常会想起我们平南县坦克网络技术有限公司的创始人甘耀通先生，给人期待，给人无趣，给人略过，甘耀通先生的家乡是贵港市平南县六陈镇。这个地方我们有玩水愉快，以前，多下大雨，水库就会水满，小小心地过着洪水日子。现在，我们平南县坦克网络技术有限公司坐落六陈镇的隔壁，一个无尽的，大新这个名字的乡镇。你会愉快地走进三坡竹，同伴会跟着你，也会惊讶地与你交谈三坡竹的地方，这个名字一定是好有文化的，好疯狂的文人取名的，我无法用一切来形容。你等着我吧，在旧禾塘那个地方，平南县坦克网络技术有限公司。</p>
+	<img src="./img/site-2018-09/平台-地球-太空员.jpg" />
+	<div>
+		<h2>多语言项目</h2>
+		<p>使用新通平台多语言项目，为你开发的应用提供多语言服务。前端JavaScript调用。只要两行代码，应用就可以使用新通平台的多语言项目。</p>
+	</div>
+</div>
+<div id="l2">
+	<img src="./img/site-2018-09/membership-会员.jpg" />
+	<div>
+		<h2>会员项目</h2>
+		<p>使用新通平台会员项目，你开发的应用使用新通平台的会员项目，你无需开发会员，只需要记录从新通获取的用户信息，保存在开发项目的数据库表。这个项目类似开放认证。</p>
+	</div>
+</div>
+<div id="l3">
+	<img src="./img/site-2018-09/certificate.jpg" />
+	<div id="l3-text">
+		<h2>证书项目</h2>
+		<p>使用新通平台证书项目，使用证书项目，你将会继承新通平台的证书项目，能够解决大部分证书颁发，取消，更改，管理问题。</p>
+	</div>
 </div>
 
-</div>
 </div>
 <footer>
 <menu>
