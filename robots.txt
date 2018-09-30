@@ -1,2 +1,7 @@
 User-agent: *
-Disallow: /*
+Disallow: /upgrade/
+Disallow: /doc/
+Disallow: /download/
+Disallow: /hugo/
+Disallow: /audio/
+Disallow: /video/
