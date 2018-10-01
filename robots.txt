@@ -5,3 +5,4 @@ Disallow: /download/
 Disallow: /hugo/
 Disallow: /audio/
 Disallow: /video/
+Sitemap:  /blog/sitemap.xml
