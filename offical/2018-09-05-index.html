@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
+
         <title>平南县坦克网络技术有限公司官方网站</title>
 		<link rel="shortcut icon" href="./平南县坦克网络技术有限公司logo_96.ico">
         <style type="text/css">
@@ -52,7 +53,8 @@
         }
         .men{display: block; top: 100px; position: fixed; width: 100%;}
         .IDEtc{display: none; top: 100px; position: fixed; width: 100%; background-color:rgba(33, 37, 41, 1) }
-        .IDEtc .row .item{background-color: black; padding: 10px; border-radius: 3px; margin: auto; color: white;}
+		.IDEtc .row{display:flex; flex-direction:column;}
+        .IDEtc .row .item{background-color: black; padding: 10px; border-radius: 3px; margin: auto; color: white; text-align:center;}
         .IDEtc .row .line{overflow: hidden; border: none; width: 100%;}
         .IDEtc .row .item img{width: 250px; height: 157px;}
         .zixu:hover,.ywxt:hover,.cpdz:hover,.yxyj:hover,.mxgs:hover{
@@ -166,7 +168,7 @@
         position: fixed;
         top: 0;
         background-color: white;
-        width: 800px;
+        width: 100%;
         border-bottom-left-radius: 1em;
         border-bottom-right-radius: 1em;
         }
@@ -180,16 +182,24 @@
         }
         .dgrow h3{padding: 30px;}
         .yssp{margin:auto;}
+		video{width:100%;}
         .comrow table{width: 100%;}
         .comrow .download{width: 100%;}
         .comrow .image{opacity: 1; background: blue;}
         .comrow .image img{height: 250px;}
         .comrow .WEBAPPimg img{width: 870px; height: unset;}
         #checkout img{width: 400px;}
-        .website{float: right; top: 250px; position: fixed; right: 0; background: wheat; padding: .5em;}
-        .menu{float: left; top: 180px; position: fixed; left: 0; background: wheat; padding: .5em;}
+        .website{display:none; float: right; top: 250px; position: fixed; right: 0; background: wheat; padding: .5em;}
+        .menu{display:none; float: left; top: 180px; position: fixed; left: 0; background: wheat; padding: .5em;}
 	.menu img{width:200px;}
         .outnav{width: 200px;float: right;position: fixed;top: 0;right: 0;}
+		@media screen and (min-width:600px){
+			.website{display:block;}
+			.menu{display:block;}
+			.adv{width:800px;}
+			video{width:800px;}
+			.IDEtc .row{flex-direction:row;}
+		}
         </style>
         <!-- Bootstrap -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
@@ -272,7 +282,7 @@
                         <p><strong>商店</strong>平南县坦克网络技术有限公司提供一个DNS产品，面向个人开发者、地面商户、地面企业、专卖店、学校、政府企业、人员多的地方、广场、沙滩、公园、动物园、移动网。</p>
                     </div>
                     <div class="yssp">
-                    <video controls="controls" width="800" src="../video/域名程序使用演示.mp4"></video>
+                    <video controls="controls" src="../video/域名程序使用演示.mp4"></video>
                 </div>
                 <div class="sylc">
                     <label>制定计划 >> </label>
@@ -788,24 +798,27 @@
 </div>
 </div>
 <div class="IDEtc">
-<div class="row">
-<div class="line"><button onclick="closeIDEtc();">关闭</button><a href="#">进入</a></div>
-<div class="item">
-<h3>Visual Studio 2017</h3>
-<img class="img-fluid" src="../img/Visual-Studio-2017.png">
-<p>Visual Studio IDE</p>
-</div>
-<div class="item">
-<h3>Xcode</h3>
-<img class="img-fluid" src="../img/xcode-logo.png">
-<p>Xcode IDE</p>
-</div>
-<div class="item">
-<h3>Qt Creator</h3>
-<img class="img-fluid" src="../img/Qt_logostrap_CMYK.png">
-<p>Qt Creator IDE</p>
-</div>
-</div>
+	<div class="row">
+		<div class="line">
+			<button onclick="closeIDEtc();">关闭</button>
+			<a href="#">进入</a>
+		</div>
+		<div class="item">
+		<h3>Visual Studio 2017</h3>
+		<img class="img-fluid" src="../img/Visual-Studio-2017.png">
+		<p>Visual Studio IDE</p>
+		</div>
+		<div class="item">
+		<h3>Xcode</h3>
+		<img class="img-fluid" src="../img/xcode-logo.png">
+		<p>Xcode IDE</p>
+		</div>
+		<div class="item">
+		<h3>Qt Creator</h3>
+		<img class="img-fluid" src="../img/Qt_logostrap_CMYK.png">
+		<p>Qt Creator IDE</p>
+		</div>
+	</div>
 </div>
 <script type="text/javascript">
 $(function(){
@@ -849,7 +862,6 @@ margin-bottom: 10px;
 width: 300px;
 }
 .IDEtc .row .item{
-zoom:.5;
 margin: 0;
 }
 .yssp{
