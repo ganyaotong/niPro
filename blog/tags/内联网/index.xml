@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>网站开发 on 平南县坦克网络技术有限公司博客</title>
-    <link>../blog/categories/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/</link>
-    <description>Recent content in 网站开发 on 平南县坦克网络技术有限公司博客</description>
+    <title>内联网 on 平南县坦克网络技术有限公司博客</title>
+    <link>../blog/tags/%E5%86%85%E8%81%94%E7%BD%91/</link>
+    <description>Recent content in 内联网 on 平南县坦克网络技术有限公司博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
     <lastBuildDate>Sat, 06 Oct 2018 17:19:32 +0800</lastBuildDate>
     
-	<atom:link href="../blog/categories/%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="../blog/tags/%E5%86%85%E8%81%94%E7%BD%91/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -28,32 +28,6 @@
 基础设施成本 没有基础设施，您就无法拥有内部网。它需要服务器和网络连接来运行企业门户，您的成本将取决于系统的设置和维护方式。 * 私有云 - 内部托管的Intranet比使用Office 365和sharePoint的公共云解决方案成本更高。有些公司更喜欢使用驻地服务器或私有云，因为他们相信它会为他们提供更好的数据安全性。这种假设是错误的，因此可能会花费更多。在内部设置和维护Intranet需要有时间处理维护的熟练IT技术人员，并且大多数组织缺乏这方面的资源。使用Office 365的公共云解决方案通常是更好的选择。 * 公共云 - 公共云是您的组织通过Internet连接到的异地服务器，它提供的优势非常重要。在Office 365上部署SharePoint Intranet是目前最快，最具成本效益的解决方案。作为Office 365订阅者，您的公司将享受Microsoft托管支持的全部优势，包括大量存储，速度和数据备份。它还提供比大多数本地Intranet安装更好的数据安全性，并且不需要IT部门支持。
 与内部部署解决方案相比，Office 365上的基础架构成本极低。只需支付年度订阅费（35元-241元人民币每月），您就可以去了。像Aerie这样的Microsoft合作伙伴可以提供相同的费率，但可以提供更好的支持访问权限已经迁移和自定义方面的帮助。
 部署，采用和支持成本 部署，采用和支持Intranet的成本取决于多种因素 * 部署选项 - 有几个开箱即用的SharePoint intranet可提供较低的部署成本。此外，SharePoint是一个可用于为特定业务挑战开发解决方案的平台。示例包括为员工沟通开发社交网络，或者通过特定的批准链推送文档的应用程序。可以使用SharePoint开发这些功能，但是每个功能都会影响成本。 * Intranet采用 - 不要忽视员工采用Intranet的重要性。至少应该对员工进行适当的培训，使他们了解如何使用新的内部网附带的可用工具。 * 支持 - 一旦您的平台启动，它将需要内部或组织外的专家支持。如果您的Intranet成功，您的员工将希望为其添加新功能和自定义，因此您应该计划在以后进行改进和增强的预算。</description>
-    </item>
-    
-    <item>
-      <title>坦克网站开发过程</title>
-      <link>../blog/post/%E5%9D%A6%E5%85%8B%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E8%BF%87%E7%A8%8B/</link>
-      <pubDate>Wed, 19 Sep 2018 19:39:02 +0800</pubDate>
-      
-      <guid>../blog/post/%E5%9D%A6%E5%85%8B%E7%BD%91%E7%AB%99%E5%BC%80%E5%8F%91%E8%BF%87%E7%A8%8B/</guid>
-      <description>背景知识 坦克网站开发过程。网站项目是由一系列编码，调试，测试，发布，反馈的活动才能完成的。编码之前，就已经知道需要什么功能，登陆功能，登出功能，修改密码，修改个人信息，忘记密码，忘记登陆用户名，个人订阅，注册，注销，这些功能属于会员模块，模块与模块之间也会产生需求。网站的界面，皮肤是由一系列创建，调整，修改，成功的界面设计活动组成。这些技术包括如何在合适的位置留空，填充，排列，对齐，定位。每个功能一个界面，功能界面由模块界面统一，模块界面通过模块推广-文字说明统一。输出output可以由系统稳健（robust）设计提供更强大的输出。
-开发过程 坦克网站开发过程 第一：网站模块需求提交。 第二：模块划分功能。 第三：功能分析。 三大主要过程。
-过程详解 网站模块需求提交，由客户填写网站模块提交文档（数字或者纸质文档），填写完整没有错误交给销售经理。如果客户不会填写网站模块提交文档，应该与我方销售经理一起填写，销售经理会帮助客户完成工作。
-模块划分功能，销售经理接收到客户发出的网站模块提交文档，应该将文档交给开发经理，开发经理分析模块，对模块进行调研，对模块进行划分出功能。开发经理遇到麻烦，应该召开会议，指示技术人员参与会议，一起完成模块划分功能的工作。
-功能分析。根据上面的阶段得出的文档，开发经理根据功能名称退功能进行预编码分析。对功能进行说明，记录在文档。</description>
-    </item>
-    
-    <item>
-      <title>裸机前端开发环境搭建</title>
-      <link>../blog/post/%E8%A3%B8%E6%9C%BA%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
-      <pubDate>Sun, 16 Sep 2018 14:18:16 +0800</pubDate>
-      
-      <guid>../blog/post/%E8%A3%B8%E6%9C%BA%E5%89%8D%E7%AB%AF%E5%BC%80%E5%8F%91%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
-      <description>前端是指使用HTML5与CSS3技术开发的html网页，我们使用平南县坦克网络技术有限公司的两个软件来搭建。 这里有几张截图，每张截图代表一个重要步骤。
-域名申请i.cc 做到一系列从注册到使用的功能，是使用了4个软件，具体到名称是，第一是火狐浏览器，第二个是Notepad++编辑器，其他两个是DNS-Desktop，OAS
-创建项目 使用DNS-Desktop申请域名i.cc，等下查看项目需要使用，创建文件夹&amp;rdquo;项目花&amp;rdquo;，并添加到OAS项目里。启动服务就一直处于服务状态。
-编辑项目 建立一个HTML5模板，使用的编辑便是Notepad++，这是一个正版，免费的编辑器。
-查看项目 查看我们编辑结果使用的软件就是火狐浏览器。开发HTML5，CSS3网页，用到的软件全在这里。</description>
     </item>
     
   </channel>
