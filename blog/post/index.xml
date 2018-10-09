@@ -6,10 +6,21 @@
     <description>Recent content in Posts on 平南县坦克网络技术有限公司博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 06 Oct 2018 17:19:32 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 09 Oct 2018 16:07:32 +0800</lastBuildDate>
     
 	<atom:link href="../blog/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>SRI是子资源完整性</title>
+      <link>../blog/post/sri%E6%98%AF%E5%AD%90%E8%B5%84%E6%BA%90%E5%AE%8C%E6%95%B4%E6%80%A7/</link>
+      <pubDate>Tue, 09 Oct 2018 16:07:32 +0800</pubDate>
+      
+      <guid>../blog/post/sri%E6%98%AF%E5%AD%90%E8%B5%84%E6%BA%90%E5%AE%8C%E6%95%B4%E6%80%A7/</guid>
+      <description>什么是子资源完整性 子资源完整性（SRI）是允许浏览器检查其获得的资源是否被篡改的一项安全特性。它通过验证获取文件的哈希值是否和你提供的哈希值一样来判断资源是否被篡改。
+SRI真的安全吗 SRI是浏览支持的安全特性，其是通过校验文件哈希值来保证加载的资源完整性，并不能说是绝对的安全，破坏者也可能通过修改出现在浏览器前的网页来破坏。不管其在实际应用中是否提高安全，都应该在CDN中使用SRI来工作。
+使用SRI需要哪些技术 SRI需要使用哈希工具来生成哈希码，相关工具有File Hash Checker。但只要有哈希算法如MD5、SHA-1、SHA-256、SHA-384、SHA-512都会成为使用工具。不过SRI目前支持sha256、sha384及sha512。base64编码也会成为其应用技术。</description>
+    </item>
     
     <item>
       <title>内联网</title>
