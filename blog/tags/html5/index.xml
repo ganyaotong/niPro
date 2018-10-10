@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html5 on 平南县坦克网络技术有限公司博客</title>
+    <link>../blog/tags/html5/</link>
+    <description>Recent content in Html5 on 平南县坦克网络技术有限公司博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 10 Oct 2018 15:02:38 +0800</lastBuildDate>
+    
+	<atom:link href="../blog/tags/html5/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>HTML5入门-平南学IT</title>
+      <link>../blog/post/html5%E5%85%A5%E9%97%A8/</link>
+      <pubDate>Wed, 10 Oct 2018 15:02:38 +0800</pubDate>
+      
+      <guid>../blog/post/html5%E5%85%A5%E9%97%A8/</guid>
+      <description>HTML5是否真的难？ 不难，HTML5是标记语言，学习起来非常容易，任何人都可以学习，废物也可以。废物学了还可以变成人物。标记语言就是一些标记组成的一个串，比如
+&amp;lt;h1&amp;gt;&amp;lt;/h1&amp;gt;  这个就是标记组成的串，前面的是开发标记，后门跟着的是结束标记。开始标记与结束标记中间可以放置文字。那样简单，恭喜，你学习成果了。HTML5标记语言是如此简单。人人可学。哪里是学海无尽。
+HTML5标记语言第一课，一个简单的沟通。 &amp;lt;body&amp;gt; &amp;lt;h1&amp;gt;我爱你&amp;lt;/h1&amp;gt; &amp;lt;p&amp;gt;为了阐明我爱你，我需要在这里做说明，说明有一点多，希望你听下去。&amp;lt;/p&amp;gt; &amp;lt;body&amp;gt;  这个是使用html5做的一个沟通，我开发可以解释清楚是如何工作的。
+&amp;lt;body&amp;gt;  是html5体标记，体标记里面包含着
+&amp;lt;h1&amp;gt;  与
+ &amp;lt;p&amp;gt; ，H1是HTML5里面的标题标记，p是HTML5里面的段落标记。在浏览器查看这些就会显示
+我爱你 为了阐明我爱你，我需要在这里做说明，说明有一点多，希望你听下去。
+HTML5标记语言有多大一个学习范围。 这个不是很大，如果我们不学习它的历史，背景，目的，其他知识，那么，它就是一份语法那么大。一份语法有多大。我去W3C组织复制过来，就这么多知识：  Tag Description   &amp;lt;!&amp;ndash;&amp;hellip;&amp;ndash;&amp;gt; Defines a comment   &amp;lt;!DOCTYPE&amp;gt;&amp;nbsp; Defines the document type   &amp;lt;a&amp;gt; Defines a hyperlink   &amp;lt;abbr&amp;gt; Defines an abbreviation or an acronym   &amp;lt;acronym&amp;gt; Not supported in HTML5. Use &amp;lt;abbr&amp;gt; instead.
+Defines an acronym   &amp;lt;address&amp;gt; Defines contact information for the author/owner of a document   &amp;lt;applet&amp;gt; Not supported in HTML5.</description>
+    </item>
+    
+  </channel>
+</rss>
