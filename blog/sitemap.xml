@@ -128,13 +128,13 @@
   </url>
   
   <url>
-    <loc>../blog/categories/</loc>
+    <loc>../blog/tags/</loc>
     <lastmod>2018-10-10T16:32:22+08:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>../blog/tags/</loc>
+    <loc>../blog/categories/</loc>
     <lastmod>2018-10-10T16:32:22+08:00</lastmod>
     <priority>0</priority>
   </url>
