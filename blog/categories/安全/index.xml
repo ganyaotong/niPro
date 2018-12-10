@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>安全 on 平南县坦克网络技术有限公司博客</title>
+    <link>../blog/categories/%E5%AE%89%E5%85%A8/</link>
+    <description>Recent content in 安全 on 平南县坦克网络技术有限公司博客</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 10 Dec 2018 16:09:09 +0800</lastBuildDate>
+    
+	<atom:link href="../blog/categories/%E5%AE%89%E5%85%A8/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>基于内网穿透进行破坏</title>
+      <link>../blog/post/%E5%9F%BA%E4%BA%8E%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E8%BF%9B%E8%A1%8C%E7%A0%B4%E5%9D%8F/</link>
+      <pubDate>Mon, 10 Dec 2018 16:09:09 +0800</pubDate>
+      
+      <guid>../blog/post/%E5%9F%BA%E4%BA%8E%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E8%BF%9B%E8%A1%8C%E7%A0%B4%E5%9D%8F/</guid>
+      <description>场景 正在进行各种工作的时候，突然间出现问题，这些问题表现为无法连网，网络中断。此时，一般用户会选择重启软件，重启系统，但是重启一次后，过一分钟后又出现同样的问题，我可以判断为受到黑客攻击，这种攻击出现在正版系统，以及正版软件上面，我们可以大概指向是开源软件的问题。黑客利用开源软件后门或者软件漏洞进行攻击，每当你受到攻击的时候，你的工作便无法继续进行，你得花时间去处理这个问题。
+内网穿透 内网穿透可以让你的电脑暴露在Internet上面，Internet上的电脑可以对您的计算机进行访问。
+破坏 攻击者可以利用工具对您的电脑进行远程破坏，发送破坏指令，远程调用破坏程序。使您的工作中断。
+解决方法 内网穿透是在Internet上访问您的计算机来进行破坏的。在系统上，通过打开防火墙程序，把所有入口关闭，可以成功解决这种破坏。</description>
+    </item>
+    
+  </channel>
+</rss>
